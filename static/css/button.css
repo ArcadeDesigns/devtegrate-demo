@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary_color: #ffffff;
+    --secondary_color: #1596F5;
+    --header_color: #333333;
+    --section_color: #e8e8e8;
+    --text_color: #666666;
+    --header_text_color: #000000;
+    
+    /******************/
+    /******************/
+
+    --header_text: 3em;
+    --medium_header_text: 2em;
+    --small_header_text: 1.6em;
+    --h4_font: 1.4em;
+    --h5_font: 1.2em;
+    --medium_font: 1em;
+    --small_font: 0.9em;
+    --span_font: 0.8em;
+    
+    /******************/
+    /******************/
+}
+
+.navbar-content li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    transition: .4s;
+    height: 3px;
+    background-color: var(--secondary_color);
+}
+
+.navbar-content li:hover:after {
+    width: 100%;
+}
+
+.button-action {
+    text-decoration: none;
+    padding: 5px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: var(--secondary_color);
+}
+
+.button-action div {
+    font-size: 1em;
+    color: var(--primary_color);
+}
+
+.button-action .bx {
+    transform: rotate(-45deg);
+    color: var(--secondary_color);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: var(--primary_color);
+}
+
+.button-action:hover .bx {
+    animation: 3s RotatingBtn;
+}
+
+.button-action-two {
+    text-decoration: none;
+    padding: 5px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: var(--secondary_color);
+}
+
+.button-action-two div {
+    font-size: 1em;
+    color: var(--primary_color);
+}
+
+.button-action-two .bx {
+    transform: rotate(-45deg);
+    color: var(--secondary_color);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: var(--primary_color);
+}
+
+.button-action-two:hover .bx {
+    animation: 3s RotatingBtn;
+}
+
+.button-action-three {
+    text-decoration: none;
+    padding: 5px;
+    margin: 2% auto;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: var(--secondary_color);
+}
+
+.button-action-three div {
+    font-size: 1em;
+    color: var(--primary_color);
+}
+
+.button-action-three .bx {
+    transform: rotate(-45deg);
+    color: var(--secondary_color);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: var(--primary_color);
+}
+
+.button-action-three:hover .bx {
+    animation: 3s RotatingBtn;
+}
+
+button {
+    text-decoration: none;
+    padding: 5px;
+    margin: 2% auto;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: var(--secondary_color);
+}
+
+button div {
+    font-size: 1em;
+    color: var(--primary_color);
+}
+
+button .bx {
+    transform: rotate(-45deg);
+    color: var(--secondary_color);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: var(--primary_color);
+}
+
+button:hover .bx {
+    animation: 3s RotatingBtn;
+}
+
+.button-action-four {
+    text-decoration: none;
+    padding: 5px;
+    margin: 2% 0;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: var(--secondary_color);
+}
+
+.button-action-four div {
+    font-size: 1em;
+    color: var(--primary_color);
+}
+
+.button-action-four .bx {
+    transform: rotate(-45deg);
+    color: var(--secondary_color);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: var(--primary_color);
+}
+
+.button-action-four:hover .bx {
+    animation: 3s RotatingBtn;
+}
+
+.button-action-five {
+    text-decoration: none;
+    padding: 5px;
+    margin: 2% 0;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: var(--secondary_color);
+}
+
+.button-action-five div {
+    font-size: 1em;
+    color: var(--primary_color);
+}
+
+.button-action-five .bx {
+    transform: rotate(-45deg);
+    color: var(--secondary_color);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: var(--primary_color);
+}
+
+.button-action-five:hover .bx {
+    animation: 3s RotatingBtn;
+}
+
+.button-action-six {
+    text-decoration: none;
+    padding: 5px;
+    margin: 2% 0;
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: var(--header_text_color);
+}
+
+.button-action-six div {
+    font-size: 1em;
+    color: var(--primary_color);
+}
+
+.button-action-six .bx {
+    transform: rotate(-45deg);
+    color: var(--header_text_color);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: var(--primary_color);
+}
+
+.button-action-six:hover .bx {
+    animation: 3s RotatingBtn;
+}
+
+.button-action-seven {
+    text-decoration: none;
+    padding: 5px;
+    margin: 2% 0;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: var(--secondary_color);
+}
+
+.button-action-seven div {
+    font-size: 1em;
+    color: var(--primary_color);
+}
+
+.button-action-seven .bx {
+    transform: rotate(-45deg);
+    color: var(--secondary_color);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: var(--primary_color);
+}
+
+.button-action-seven:hover .bx {
+    animation: 3s RotatingBtn;
+}
+
+.button-action-eight {
+    text-decoration: none;
+    padding: 5px;
+    margin: 2% 0;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: var(--secondary_color);
+}
+
+.button-action-eight div {
+    font-size: 1em;
+    color: var(--primary_color);
+}
+
+.button-action-eight .bx {
+    transform: rotate(-45deg);
+    color: var(--secondary_color);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: var(--primary_color);
+}
+
+.button-action-eight:hover .bx {
+    animation: 3s RotatingBtn;
+}
+
+.button-action-nine {
+    text-decoration: none;
+    padding: 5px;
+    margin: 2% 0;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: var(--header_text_color);
+}
+
+.button-action-nine div {
+    font-size: 1em;
+    color: var(--primary_color);
+}
+
+.button-action-nine .bx {
+    transform: rotate(-45deg);
+    color: var(--header_text_color);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: var(--primary_color);
+}
+
+.button-action-nine:hover .bx {
+    animation: 3s RotatingBtn;
+}
+
+@keyframes RotatingBtn {
+    0%{
+        transform: rotate(-45deg);
+    }
+    75%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(-45deg);
+    }
+}
