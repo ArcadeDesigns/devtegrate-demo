@@ -359,6 +359,37 @@ button:hover .bx {
     animation: 3s RotatingBtn;
 }
 
+.button-action-ten {
+    text-decoration: none;
+    padding: 5px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: var(--secondary_color);
+}
+
+.button-action-ten div {
+    font-size: 1em;
+    color: var(--primary_color);
+}
+
+.button-action-ten .bx {
+    transform: rotate(-45deg);
+    color: var(--secondary_color);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: var(--primary_color);
+}
+
+.button-action-ten:hover .bx {
+    animation: 3s RotatingBtn;
+}
+
 @keyframes RotatingBtn {
     0%{
         transform: rotate(-45deg);
@@ -368,5 +399,171 @@ button:hover .bx {
     }
     100%{
         transform: rotate(-45deg);
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 1024px) {
+ 
+    .button-action-two {
+        width: 25%;
+    }
+
+    .button-action-three {
+        width: 25%;
+    }
+
+    .button-action {
+        width: 40%;
+    }
+
+    .button-action-ten {
+        width: 25%;
+    }
+
+    .button-action-four {
+        width: 50%;
+    }
+
+    .button-action-five {
+        width: 60%;
+    }
+
+    .button-action-six {
+        width: 55%;
+    }
+
+    .button-action-seven {
+        width: 35%;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 912px) {
+
+    .button-action-two {
+        width: 30%;
+    }
+
+    .button-action-three {
+        width: 30%;
+    }
+
+    .button-action-ten {
+        width: 35%;
+    }
+
+    .button-action-six {
+        width: 70%;
+    }
+
+    .button-action-seven {
+        width: 45%;
+    }
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 600px) {
+
+    .button-action {
+        width: 50%;
+    }
+
+    .button-action-two {
+        width: 50%;
+    }
+
+    .button-action-three {
+        width: 50%;
+    }
+
+    .button-action-ten {
+        width: 40%;
+    }
+
+    .button-action-seven {
+        width: 65%;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 430px) {
+
+    .button-action {
+        width: 80%;
+    }
+
+    .button-action-two {
+        width: 60%;
+    }
+
+    .button-action-three {
+        width: 60%;
+    }
+
+    .button-action-ten {
+        width: 50%;
+    }
+
+    .button-action-seven {
+        width: 100%;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 414px) {
+
+    .button-action {
+        width: 80%;
+    }
+
+    .button-action-two {
+        width: 60%;
+    }
+
+    .button-action-three {
+        width: 60%;
+    }
+
+    .button-action-ten {
+        width: 50%;
+    }
+
+    .button-action-five {
+        width: 75%;
+    }
+
+    .button-action-seven {
+        width: 100%;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 390px) {
+
+    .button-action-ten {
+        width: 60%;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 360px) {
+
+    .button-action {
+        width: 80%;
+    }
+
+    .button-action-two {
+        width: 70%;
+    }
+
+    .button-action-three {
+        width: 70%;
+    }
+
+    .button-action-ten {
+        width: 60%;
+    }
+
+    .button-action-five {
+        width: 80%;
+    }
+
+    .button-action-seven {
+        width: 100%;
     }
 }

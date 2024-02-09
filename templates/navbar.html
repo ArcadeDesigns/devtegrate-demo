@@ -570,4 +570,77 @@
     </li>
   </div>
 </header>
+
+<!----------------------------->
+<!----------------------------->
+<!--Responsive Btn Navigation-->
+<!----------------------------->
+<!----------------------------->
+
+<div class="sm-navbar">
+  <div class="sm-navbar-content">
+    <div class="sm-navbar-content-img">
+      <img
+        src="https://res.cloudinary.com/quinn-daisies/image/upload/v1695724222/devtegrate/devtegrate_ayl4m6.png"
+        alt="Devtegrate DevOps"
+      />
+    </div>
+
+    <div class="sm-navbar-content-navigation">
+      <div class="sm-navbar-icon active">
+        <img src="https://res.cloudinary.com/quinn-daisies/image/upload/v1707316249/devtegrate/Menu_vv4huk.png" alt="Devtegrate DevOps">
+      </div>
+
+      <div class="sm-navbar-icon-two">
+        <img src="https://res.cloudinary.com/quinn-daisies/image/upload/v1707316259/devtegrate/Close_ebnmdo.png" alt="Devtegrate DevOps">
+      </div>
+    </div>
+  </div>
+
+  <div class="responsive-nav">
+    <li class="DropDownBtn">
+      <div class="header-animation">
+        <i class="bx bxs-chevron-down"></i>
+        <div>What We Do</div>
+      </div>
+
+      <ul>
+        <li><a href="{{ url_for ('cloud_infrastructure') }}"
+            >Cloud Infrastructure</a></li>
+
+        <li><a href="{{ url_for ('cloud_migration') }}"
+            >Cloud Migrations</a></li>
+
+        <li><a href="{{ url_for ('cloud_computing') }}"
+            >Cloud Computing</a></li>
+        <li><a href="{{ url_for ('cloud_infrastructure') }}"
+            >Cloud Infrastructure</a></li>
+
+        <li><a href="{{ url_for ('cloud_migration') }}"
+            >Cloud Migrations</a></li>
+
+        <li><a href="{{ url_for ('cloud_computing') }}"
+            >Cloud Computing</a></li>
+      </ul>
+    </li>
+
+    <li class="DropDownBtnTwo">
+      <div class="header-animation">
+        <i class="bx bxs-chevron-down"></i>
+        <div>Who We Are</div>
+      </div>
+
+      <ul>
+        <li><a href="{{ url_for('about') }}">About Devtegrate LLC</a></li>
+        <li><a href="{{ url_for('partner') }}">Our Partners</a></li>
+      </ul>
+    </li>
+
+    <li><a href=" {{ url_for ('services') }} ">Why Us</a></li>
+
+    <li><a href="{{ url_for ('inspiration') }}">Inspiration & Integration</a></li>
+
+    <li><a href=" {{ url_for ('contact') }} ">Get In Touch</a></li>
+  </div>
+</div>
 {% endif %}

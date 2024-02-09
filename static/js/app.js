@@ -177,3 +177,48 @@ function PartnerSlideFunction() {
 
   setInterval(nextSlide, 5000); // Change slide every 5 seconds
 }
+
+function NavigationResponsiveControl() {
+  const DropMegaMenu = document.querySelector('.sm-navbar-icon');
+  const CloseBtn = document.querySelector('.sm-navbar-icon-two');
+  const NavigationMenuDrop = document.querySelector('.responsive-nav');
+
+  DropMegaMenu.addEventListener('click', () => {
+    DropMegaMenu.classList.toggle('active');
+    CloseBtn.classList.toggle('active');
+    NavigationMenuDrop.classList.toggle('active');
+  });
+
+  CloseBtn.addEventListener('click', () => {
+    DropMegaMenu.classList.toggle('active');
+    CloseBtn.classList.toggle('active');
+    NavigationMenuDrop.classList.toggle('active');
+  });
+}
+
+function OptionDropDownOne() {
+  const MenuDropDowns = document.querySelectorAll(".DropDownBtn");
+  MenuDropDowns.forEach((event) => {
+    event.addEventListener("click", () => {
+      if (event.classList.contains("active")) {
+        event.classList.remove("active");
+      } else {
+        event.classList.add("active");
+      }
+    });
+  });
+}
+
+function OptionDropDownTwo() {
+  const MenuDropDownTwos = document.querySelectorAll(".DropDownBtnTwo");
+  MenuDropDownTwos.forEach((event) => {
+    event.addEventListener("click", () => {
+      if (event.classList.contains("active")) {
+        event.classList.remove("active");
+      } else {
+        event.classList.add("active");
+      }
+    });
+  });
+}
+
