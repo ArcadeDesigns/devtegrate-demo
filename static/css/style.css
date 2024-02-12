@@ -2145,6 +2145,14 @@ header .brand {
 		display: none;
 	}
 
+	.colored-bg {
+		display: none;
+	}
+
+	.colored-bg.shadow {
+		display: none;
+	}
+
 	.page-video video {
 		height: 100%;
 	}
@@ -2255,8 +2263,14 @@ header .brand {
 
 	.sm-navbar-icon img{
 		object-fit: scale-down;
-		width: 40px;
-		height: 40px;
+		width: 30px;
+		height: 30px;
+	}
+
+	.sm-navbar-icon-two img{
+		object-fit: scale-down;
+		width: 30px;
+		height: 30px;
 	}
 
 	.sm-navbar-content-img {
@@ -2343,16 +2357,62 @@ header .brand {
 	.page-client {
 		display: none;
 	}
+
+	.migration-header-content {
+		flex-direction: column;
+	}
+
+	.migration-header-container {
+		padding: 12% 4%;
+	}
+
+	.migration-header-image {
+		display: none;
+	}
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 820px) {
 	.inspiration-section-container {
-		height: 100vh;
+		height: 70vh;
 		display: flex;
 	}
 
 	.inspiration-devtegration {
 		height: 100vh;
+	}
+
+	.inspiration-grid {
+		grid-template-columns: repeat(auto-fit, minmax(140px, auto));
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 768px) {
+
+	.inspiration-devtegration {
+		height: 110vh;
+	}
+
+	.inspiration-devtegration-box-info-navigation-set-content {
+		flex-direction: column;
+	}
+
+	.inspiration-devtegration-box-info-navigation-set-content.active {
+		flex-direction: column;
+	}
+
+	.inspiration-header-title {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.inspiration-section-container {
+		height: 100vh;
+	}
+
+	.inspiration-devtegration-header {
+		width: 100%;
+		max-width: 100vh;
+		padding: 0 4%;
 	}
 }
 
@@ -2447,5 +2507,22 @@ header .brand {
 		height: auto;
 		display: flex;
 		flex-direction: column;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 430px) {
+	
+	.migration-header-details h2 {
+		font-size: var(--medium_header_text);
+	}
+
+	.migration-header-container {
+		padding: 20% 4%;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 376px) {
+	.inspiration-devtegration {
+		height: 220vh;
 	}
 }
