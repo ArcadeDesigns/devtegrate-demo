@@ -2107,6 +2107,32 @@ header .brand {
 		transform: translate(0, -5px);
 	}
 
+	.inspiration-section-content.active{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.inspiration-section-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.inspiration-grid {
+		gap: 0.5rem;
+	}
+
+	.inspiration-info-flex {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.inspiration-devtegration-box-info-navigation {
+		flex-direction: column;
+	}
+
+	.inspiration-devtegration {
+		height: 150vh;
+	}
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 912px) {
@@ -2121,6 +2147,15 @@ header .brand {
 
 	.page-video video {
 		height: 100%;
+	}
+
+	.inspiration-section-container {
+		height: 70vh;
+		display: flex;
+	}
+
+	.inspiration-devtegration {
+		height: 70vh;
 	}
 
 	.expanse-card-content h2 {
@@ -2310,10 +2345,32 @@ header .brand {
 	}
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 820px) {
+	.inspiration-section-container {
+		height: 100vh;
+		display: flex;
+	}
+
+	.inspiration-devtegration {
+		height: 100vh;
+	}
+}
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 600px) {
 
 	.page-container {
+		height: 100vh;
+	}
+
+	.inspiration-section-container {
+		height: 100vh;
+	}
+
+	.inspiration-grid {
+		display: none;
+	}
+
+	.inspiration-devtegration {
 		height: 100vh;
 	}
 
@@ -2348,6 +2405,35 @@ header .brand {
 		height: 100%;
 		min-width: 400px;
 		min-height: 400px;
+	}
+
+	.inspiration-devtegration-box-info-navigation-set-content.active {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.inspiration-devtegration-box-info-navigation-set-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.inspiration-devtegration-header {
+		width: 100%;
+		padding: 0 4%;
+	}
+
+	.inspiration-devtegration {
+		height: 170vh;
+	}
+
+	.inspiration-tools-header {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.inspiration-header-title {
+		width: 100%;
+		max-width: 100%;
 	}
 }
 

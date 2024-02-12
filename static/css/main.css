@@ -1671,6 +1671,11 @@ html {
         display: flex;
         flex-direction: column;
     }
+
+    .senders-form-content {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 600px) {
@@ -1759,6 +1764,15 @@ html {
 
     .about-section-container {
         height: 100vh;
+    }
+
+    .about-split-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-section-content {
+        max-width: 100%;
     }
 }
 
