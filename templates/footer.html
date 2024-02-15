@@ -19,26 +19,27 @@
 
 			<div class="footer-container-header">
 				<div class="footer-grid">
-					<li><a href="">Home Page</a></li>
-					<li><a href="">About Devtegrate</a></li>
-					<li><a href="">Our Services</a></li>
-					<li><a href="">Consult with us</a></li>
-					<li><a href="">Insights</a></li>
-					<li><a href="">Cloud DevOps</a></li>
+					<li><a href="{{ url_for ('index') }}">Home Page</a></li>
+					<li><a href="{{ url_for ('about') }}">About Devtegrate</a></li>
+					<li><a href="{{ url_for ('services') }}">Our Services</a></li>
+					<li><a href="{{ url_for ('contact') }}">Consult with us</a></li>
+					<li><a href="{{ url_for ('inspiration') }}">Insights</a></li>
+					<li><a href="{{ url_for ('cloud_infrastructure') }}">Cloud Infrastructure</a></li>
 				</div>
 
 				<div class="footer-socials">
-					<li><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
-					<li><a href=""><i class='bx bxl-instagram-alt' ></i></a></li>
-					<li><a href=""><i class='bx bxl-gmail' ></i></a></li>
+					<li><a href="https://www.facebook.com/profile.php?id=100087533002431"><i class='bx bxl-facebook-circle'></i></a></li>
+					<li><a href="https://www.instagram.com/devtegrate_llc"><i class='bx bxl-instagram-alt' ></i></a></li>
+					<li><a href="https://www.twitter.com/Devtegrate_LLC"><i class='bx bxl-twitter' ></i></a></li>
+					<li><a href="mailto:tobi@devtegrate.com"><i class='bx bxl-gmail' ></i></a></li>
 				</div>
 			</div>
 
 			<div class="footer-flex">
 				<div class="footer-flex-link">
-					<li><a href="">Legal</a></li>
-					<li><a href="">Privacy Policy</a></li>
-					<li><a href="">F.A.Q</a></li>
+					<li><a href="static/document/devtegrate-legal-document.pdf">Legal</a></li>
+					<li><a href="{{ url_for('privacy_policy') }}">Privacy Policy</a></li>
+					<li><a href="{{ url_for ('frequentlyaskedquestion') }}">F.A.Q</a></li>
 				</div>
 
 				<div class="footer-copyright">

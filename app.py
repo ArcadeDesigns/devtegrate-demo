@@ -230,7 +230,7 @@ def send_message(messages_form):
             print(f"Failed to send the email. MailJet API response: {result.json()}")
     except Exception as e:
         print(f"Error occurred while sending the automated response: {e}")
-        
+
 #Attention Needed
 @app.route("/devtegrate-partner/cloud-services")
 def partner():
@@ -244,6 +244,15 @@ def partner():
 @app.route("/frequently-asked-questions")
 def faq():
     return render_template("faq.html", 
+        title= 'Frequently Asked Questions - Devtegrate Cloud Services',
+        meta_description= 'Get your questions answered and learn more about Devtegrate services on our FAQ page. Discover solutions to common issues and find out how to get in touch with our team.',
+        keywords= 'Devtegrate, FAQ, Questions, Answers, Services, Solutions, Common issues, Contact, Team, Support, Help, Information, Cloud services, Technology, Career, Opportunities',
+        link= "www.devtegrate.com/frequently-asked-questions",
+        revised="Devtegrate, 27th of January, 2023")
+
+@app.route("/devtegrate-answers/frequently-asked-questions")
+def frequentlyaskedquestion():
+    return render_template("frequentlyaskedquestion.html", 
         title= 'Frequently Asked Questions - Devtegrate Cloud Services',
         meta_description= 'Get your questions answered and learn more about Devtegrate services on our FAQ page. Discover solutions to common issues and find out how to get in touch with our team.',
         keywords= 'Devtegrate, FAQ, Questions, Answers, Services, Solutions, Common issues, Contact, Team, Support, Help, Information, Cloud services, Technology, Career, Opportunities',
