@@ -230,25 +230,7 @@ def send_message(messages_form):
             print(f"Failed to send the email. MailJet API response: {result.json()}")
     except Exception as e:
         print(f"Error occurred while sending the automated response: {e}")
-
-@app.route("/make-that-great-leap-in-your-career-path")
-def career():
-    return render_template("career.html", 
-        title= 'Careers at Devtegrate Cloud Services', 
-        meta_description= 'Explore the opportunities for growth and development in the field of cloud technology with Devtegrate. Browse our job openings and apply today.',
-        keywords= "Devtegrate, Cloud Services, Careers, Job Opportunities, IT Careers, Cloud Technology Careers, IT Job Openings, Cloud Jobs, Devtegrate Job Openings, Cloud Engineering Careers, Cloud Infrastructure Careers, Cloud Consultant Careers, Cloud Solutions Careers, Cloud Operations Careers, Cloud Support Careers, Cloud Professional Services Careers, Cloud Sales Careers, Cloud Marketing Careers, Cloud Administration Careers",
-        link= "www.devtegrate.com/make-that-great-leap-in-your-career-path",
-        revised="Devtegrate, 27th of January, 2023")
-
-@app.route("/explore-our-world")
-def explore():
-    return render_template("explore.html", 
-        title= 'Explore Devtegrate Cloud Services',
-        meta_description= "Discover the world of cloud technology with Devtegrate - a leading cloud service agency. Explore our range of solutions and services for your business today.",
-        keywords= "Devtegrate, cloud service agency, cloud solutions, cloud services, explore, business, technology, innovation, growth",
-        link= "www.devtegrate.com/explore-our-world",
-        revised="Devtegrate, 27th of January, 2023")
-
+        
 #Attention Needed
 @app.route("/devtegrate-partner/cloud-services")
 def partner():
@@ -322,7 +304,7 @@ def inspiration():
         keywords= "Devtegrate, Cloud Services, Inspiration, Business, Technology, Journey, Success stories, Transformation, Operations, Cloud technology, Innovation, Growth",
         link="www.devtegrate.com/inspiration",
         revised="Devtegrate, 27th of January, 2023")
-    
+
 @app.route("/integration", methods=['GET', 'POST'])
 def integration():
     if request.method == 'POST':

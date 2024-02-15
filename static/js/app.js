@@ -222,3 +222,13 @@ function OptionDropDownTwo() {
   });
 }
 
+function ImageShadowController() {
+  const shadowImages = document.querySelector(".about-section-content img");
+  const shadowBackground = document.querySelector(".about-section-content");
+
+  window.addEventListener("scroll", () => {
+    const isScrolled = window.scrollY > 0;
+    shadowImages.classList.toggle("shadow", isScrolled);
+    ShadowBackGround.classList.toggle("shadow", isScrolled);
+  });
+}
