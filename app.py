@@ -84,7 +84,7 @@ def calendly():
         meta_description= 'Cloud services, Cloud consulting, Cloud migration, Cloud solutions, Cloud infrastructure, Cloud strategy, Cloud implementation, Cloud security, Cloud optimization, Cloud management, Cloud consulting agency, Cloud expertise, Cloud consulting services, Cloud consulting experts, Cloud optimization services, Cloud cost optimization, Cloud scalability, Cloud modernization, Cloud transformation, Cloud managed services', 
         keywords= 'Cloud services, Cloud consulting, Cloud migration, Cloud solutions, Cloud infrastructure, Cloud strategy, Cloud implementation, Cloud security, Cloud optimization, Cloud management, Cloud consulting agency, Cloud expertise, Cloud consulting services, Cloud consulting experts, Cloud optimization services, Cloud cost optimization, Cloud scalability, Cloud modernization, Cloud transformation, Cloud managed services',
         link= "www.devtegrate.com/calendly-form",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/about-devtegrate")
 def about():
@@ -93,7 +93,7 @@ def about():
         meta_description= "Learn more about Devtegrate, a leading cloud service agency, and how we can help your business transform with our expert services. Contact us today for a consultation.", 
         keywords= "Devtegrate, cloud service agency, expert services, consultation, business transformation.",
         link= "www.devtegrate.com/about-devtegrate",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route('/contact-us', methods=['GET', 'POST'])
 def contact():
@@ -239,7 +239,7 @@ def partner():
         meta_description= "Discover the world of cloud technology with Devtegrate - a leading cloud service agency. Explore our range of solutions and services for your business today.",
         keywords= "Devtegrate, cloud service agency, cloud solutions, cloud services, explore, business, technology, innovation, growth",
         link= "www.devtegrate.com/explore-our-world",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/frequently-asked-questions")
 def faq():
@@ -248,7 +248,7 @@ def faq():
         meta_description= 'Get your questions answered and learn more about Devtegrate services on our FAQ page. Discover solutions to common issues and find out how to get in touch with our team.',
         keywords= 'Devtegrate, FAQ, Questions, Answers, Services, Solutions, Common issues, Contact, Team, Support, Help, Information, Cloud services, Technology, Career, Opportunities',
         link= "www.devtegrate.com/frequently-asked-questions",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/devtegrate-answers/frequently-asked-questions")
 def frequentlyaskedquestion():
@@ -257,7 +257,7 @@ def frequentlyaskedquestion():
         meta_description= 'Get your questions answered and learn more about Devtegrate services on our FAQ page. Discover solutions to common issues and find out how to get in touch with our team.',
         keywords= 'Devtegrate, FAQ, Questions, Answers, Services, Solutions, Common issues, Contact, Team, Support, Help, Information, Cloud services, Technology, Career, Opportunities',
         link= "www.devtegrate.com/frequently-asked-questions",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/get-in-touch", methods=['GET', 'POST'])
 def get_in_touch():
@@ -276,7 +276,7 @@ def get_in_touch():
         meta_description=  "Connect with Devtegrate and learn how our expert cloud services can benefit your business. Contact us today to schedule a consultation and take the first step towards innovation and growth.",
         keywords=  "Devtegrate, Cloud Services, Contact, Agency, Consulting, Business, Innovation, Growth, Expertise, Solutions, Support, Cloud Computing, Get in Touch, Consultation, Schedule, Connect",
         link="www.devtegrate.com/get-in-touch",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/explore-our-services")
 def services():
@@ -285,7 +285,7 @@ def services():
         meta_description=  "Discover the full range of cloud services offered by Devtegrate, a leading cloud service agency. From cloud consulting to cloud migration, explore our solutions and find out how we can help your business transform.",
         keywords=  "Devtegrate, cloud services, cloud consulting, cloud migration, solutions, business transformation, cloud infrastructure, cloud strategy, cloud implementation, cloud security, cloud optimization, cloud management, cloud consulting agency, cloud expertise, cloud consulting services, cloud consulting experts, cloud optimization services, cloud cost optimization, cloud scalability, cloud modernization, cloud transformation, cloud managed services.",
         link="www.devtegrate.com/explore-our-services",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/devtegrate-help-center")
 def help_center():
@@ -294,7 +294,7 @@ def help_center():
         meta_description= "Find answers to your questions and get the support you need at the Devtegrate Help Center. Discover solutions to common issues and learn more about our services. Contact our team for further assistance.",
         keywords= "Devtegrate, Help Center, Support, Solutions, Questions, Answers, Services, Common issues, Contact, Team, Assistance, Cloud services, Technology, Career, Opportunities",
         link="www.devtegrate.com/devtegrate-help-center",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/devtegrate-privacy-policy")
 def privacy_policy():
@@ -303,7 +303,7 @@ def privacy_policy():
         meta_description= "Learn about Devtegrate's commitment to protecting your privacy and data. Read our privacy policy to understand how we collect, use, and share your information.",
         keywords= "Devtegrate, Privacy Policy, Data Protection, Data Privacy, Privacy Commitment, Information Collection, Data Use, Data Sharing, Privacy Statement",
         link="www.devtegrate.com/devtegrate-privacy-policy",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/inspiration")
 def inspiration():
@@ -312,7 +312,7 @@ def inspiration():
         meta_description= "Find inspiration for your business and technology journey with Devtegrate. Discover success stories and learn how others have transformed their operations with our cloud services.",
         keywords= "Devtegrate, Cloud Services, Inspiration, Business, Technology, Journey, Success stories, Transformation, Operations, Cloud technology, Innovation, Growth",
         link="www.devtegrate.com/inspiration",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/integration", methods=['GET', 'POST'])
 def integration():
@@ -330,7 +330,7 @@ def integration():
         meta_description= "Streamline your business operations with Devtegrate's integration services. From cloud to on-premise and everything in between, our experts can help you achieve seamless integration. Contact us today for a consultation.",
         keywords= "Devtegrate, Integration services, Cloud solutions, On-premise, Seamless integration, Business operations, Contact, Consultation, Cloud integration, IT integration, Technical integration, Cloud services provider, Cloud strategy",
         link="www.devtegrate.com/integration",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/devtegrate-team-page")
 def team():
@@ -339,7 +339,7 @@ def team():
         meta_description= "Get to know the talented and experienced team behind Devtegrate's cloud services. Learn about our team members' skills and expertise in the field of cloud technology. ",
         keywords= "Devtegrate, Team, Cloud Experts, Cloud Technology, Skills, Expertise, Cloud Services, Team Members, Cloud Professionals, Cloud Solutions, Cloud Infrastructure, Cloud Strategy, Cloud Implementation, Cloud Optimization, Cloud Management, Cloud Consulting, Cloud Migration, Cloud Security.",
         link="www.devtegrate.com/devtegrate-team-page",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/")
 def index():
@@ -348,7 +348,7 @@ def index():
         meta_description= 'Software Development Life Cycle | Cloud Service | Server Side Programming | Oracle Corporation  Computer software company |  SQL Server Management Studio.',
         keywords= "Software, Development, Server, Programming, Oracle, Corporation, Computer, software, Server, Management, Studio, DevOps, Devtegrate, Cloud Service, DevOpsSec, Azure, AWS, Amazon Web Service, Microsoft Azure, Google Cloud Platform, GCP",
         link="www.devtegrate.com/",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/cloud-infrastructure")
 def cloud_infrastructure():
@@ -357,7 +357,7 @@ def cloud_infrastructure():
         meta_description= 'Software Development Life Cycle | Cloud Service | Server Side Programming | Oracle Corporation  Computer software company |  SQL Server Management Studio.',
         keywords= "Software, Development, Server, Programming, Oracle, Corporation, Computer, software, Server, Management, Studio, DevOps, Devtegrate, Cloud Service, DevOpsSec, Azure, AWS, Amazon Web Service, Microsoft Azure, Google Cloud Platform, GCP",
         link="www.devtegrate.com/cloud-infrastructure",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 #########Update Needed############
 #@app.route("/devtegrate-articles")
@@ -367,7 +367,7 @@ def cloud_infrastructure():
         #meta_description= 'Software Development Life Cycle | Cloud Service | Server Side Programming | Oracle Corporation  Computer software company |  SQL Server Management Studio.',
         #keywords= "Software, Development, Server, Programming, Oracle, Corporation, Computer, software, Server, Management, Studio, DevOps, Devtegrate, Cloud Service, DevOpsSec, Azure, AWS, Amazon Web Service, Microsoft Azure, Google Cloud Platform, GCP",
         #link="www.devtegrate.com/",
-        #revised="Devtegrate, 27th of January, 2023")
+        #revised="Devtegrate, 16th of February, 2024")
 
 #@app.route("/devtegrate-articles-read")
 #def article():
@@ -376,7 +376,7 @@ def cloud_infrastructure():
         #meta_description= 'Software Development Life Cycle | Cloud Service | Server Side Programming | Oracle Corporation  Computer software company |  SQL Server Management Studio.',
         #keywords= "Software, Development, Server, Programming, Oracle, Corporation, Computer, software, Server, Management, Studio, DevOps, Devtegrate, Cloud Service, DevOpsSec, Azure, AWS, Amazon Web Service, Microsoft Azure, Google Cloud Platform, GCP",
         #link="www.devtegrate.com/",
-        #revised="Devtegrate, 27th of January, 2023")
+        #revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/Monitoring-and-Metrics-for-Cloud-Services-and-Cloud-DevOps")
 def monitoring():
@@ -385,7 +385,7 @@ def monitoring():
         meta_description= 'Software Development Life Cycle | Cloud Service | Server Side Programming | Oracle Corporation  Computer software company |  SQL Server Management Studio.',
         keywords= "Software, Development, Server, Programming, Oracle, Corporation, Computer, software, Server, Management, Studio, DevOps, Devtegrate, Cloud Service, DevOpsSec, Azure, AWS, Amazon Web Service, Microsoft Azure, Google Cloud Platform, GCP",
         link="www.devtegrate.com/cloud-infrastructure",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/cloud-migration")
 def cloud_migration():
@@ -394,7 +394,7 @@ def cloud_migration():
         meta_description= 'Software Development Life Cycle | Cloud Service | Server Side Programming | Oracle Corporation  Computer software company |  SQL Server Management Studio.',
         keywords= "Software, Development, Server, Programming, Oracle, Corporation, Computer, software, Server, Management, Studio, DevOps, Devtegrate, Cloud Service, DevOpsSec, Azure, AWS, Amazon Web Service, Microsoft Azure, Google Cloud Platform, GCP",
         link="www.devtegrate.com/cloud-migration",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/cloud-devops-and-devsecops")
 def cloud_devops():
@@ -403,7 +403,7 @@ def cloud_devops():
         meta_description= 'Software Development Life Cycle | Cloud Service | Server Side Programming | Oracle Corporation  Computer software company |  SQL Server Management Studio.',
         keywords= "Software, Development, Server, Programming, Oracle, Corporation, Computer, software, Server, Management, Studio, DevOps, Devtegrate, Cloud Service, DevOpsSec, Azure, AWS, Amazon Web Service, Microsoft Azure, Google Cloud Platform, GCP",
         link="www.devtegrate.com/cloud-migration",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/devtegrate-cloud-computing")
 def cloud_computing():
@@ -412,7 +412,7 @@ def cloud_computing():
         meta_description= 'Software Development Life Cycle | Cloud Service | Server Side Programming | Oracle Corporation  Computer software company |  SQL Server Management Studio.',
         keywords= "Software, Development, Server, Programming, Oracle, Corporation, Computer, software, Server, Management, Studio, DevOps, Devtegrate, Cloud Service, DevOpsSec, Azure, AWS, Amazon Web Service, Microsoft Azure, Google Cloud Platform, GCP",
         link="www.devtegrate.com/cloud-migration",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/cloud-integration")
 def cloud_integration():
@@ -421,7 +421,7 @@ def cloud_integration():
         meta_description= 'Software Development Life Cycle | Cloud Service | Server Side Programming | Oracle Corporation  Computer software company |  SQL Server Management Studio.',
         keywords= "Software, Development, Server, Programming, Oracle, Corporation, Computer, software, Server, Management, Studio, DevOps, Devtegrate, Cloud Service, DevOpsSec, Azure, AWS, Amazon Web Service, Microsoft Azure, Google Cloud Platform, GCP",
         link="www.devtegrate.com/cloud-integration",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/cloud-automation")
 def cloud_automation():
@@ -430,7 +430,7 @@ def cloud_automation():
         meta_description= 'Software Development Life Cycle | Cloud Service | Server Side Programming | Oracle Corporation  Computer software company |  SQL Server Management Studio.',
         keywords= "Software, Development, Server, Programming, Oracle, Corporation, Computer, software, Server, Management, Studio, DevOps, Devtegrate, Cloud Service, DevOpsSec, Azure, AWS, Amazon Web Service, Microsoft Azure, Google Cloud Platform, GCP",
         link="www.devtegrate.com/cloud-automation",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 @app.route("/sitemap")
 def sitemap():
@@ -439,7 +439,7 @@ def sitemap():
         meta_description= 'Software Development Life Cycle | Cloud Service | Server Side Programming | Oracle Corporation  Computer software company |  SQL Server Management Studio.',
         keywords= "Software, Development, Server, Programming, Oracle, Corporation, Computer, software, Server, Management, Studio, DevOps, Devtegrate, Cloud Service, DevOpsSec, Azure, AWS, Amazon Web Service, Microsoft Azure, Google Cloud Platform, GCP",
         link="www.devtegrate.com/",
-        revised="Devtegrate, 27th of January, 2023")
+        revised="Devtegrate, 16th of February, 2024")
 
 #Pass Stuff to NavBar
 @app.context_processor
