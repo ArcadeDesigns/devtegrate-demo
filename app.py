@@ -322,34 +322,7 @@ def inspiration():
         keywords= "Devtegrate, Cloud Services, Inspiration, Business, Technology, Journey, Success stories, Transformation, Operations, Cloud technology, Innovation, Growth",
         link="www.devtegrate.com/inspiration",
         revised="Devtegrate, 27th of January, 2023")
-
-@app.route("/amazon-web-service")
-def aws():
-    return render_template("aws.html",
-        title= "Amazon Web Services Solutions by Devtegrate",
-        meta_description= "Discover the full range of Amazon Web Services solutions offered by Devtegrate. From AWS migration to optimization and management, our expert team can help your business maximize the potential of AWS.",
-        keywords= "Devtegrate, Amazon Web Services, AWS, Cloud Solutions, Cloud Migration, Cloud Optimization, Cloud Management, Cloud Consulting, Cloud Expertise, Business Solutions, AWS Solutions Provider.",
-        link="www.devtegrate.com/amazon-web-service",
-        revised="Devtegrate, 27th of January, 2023")
-
-@app.route("/microsoft-azure")
-def azure():
-    return render_template("azure.html", 
-        title= 'Microsoft Azure Cloud Services by Devtegrate',
-        meta_description= 'Explore the benefits of Microsoft Azure for your business with Devtegrates expert guidance and implementation services. Contact us to learn more.',
-        keywords= 'Microsoft Azure, Devtegrate, Cloud Services, Business Solutions, Cloud Computing, Cloud Infrastructure, Cloud Migration, Cloud Security, Cloud Management, Cloud Consulting, Cloud Implementation, Cloud Strategy, Cloud Optimization, Cloud Modernization, Cloud Transformation, Cloud Expertise, Cloud Service Provider',
-        link="www.devtegrate.com/microsoft-azure",
-        revised="Devtegrate, 27th of January, 2023")
-
-@app.route("/google-cloud-platform")
-def gcp():
-    return render_template("gcp.html", 
-        title= "Explore the Power of Google Cloud Platform with Devtegrate",
-        meta_description= "Unlock the full potential of Google Cloud Platform with Devtegrate's expert services and solutions. Discover the benefits of GCP and contact us today to schedule a consultation.",
-        keywords= "Devtegrate, Google Cloud Platform, GCP, Cloud Services, Solutions, Consultation, Expert Services, Cloud Computing, Technology, Business Solutions, Cloud Infrastructure, Cloud Development, Cloud Operations, Cloud Support, Cloud Professional Services, Cloud Integration",
-        link="www.devtegrate.com/google-cloud-platform",
-        revised="Devtegrate, 27th of January, 2023")
-
+    
 @app.route("/integration", methods=['GET', 'POST'])
 def integration():
     if request.method == 'POST':

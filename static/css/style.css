@@ -50,10 +50,16 @@ html {
 
 .colored-bg-hidden.shadow {
 	display: block;
+	box-shadow: none;
 }
 
 .colored-bg-hidden-shadow.shadow {
 	display: none;
+	box-shadow: none;
+}
+
+.shadow {
+	box-shadow: none;
 }
 
 .sm-navbar {
@@ -363,7 +369,7 @@ header .brand {
 	height: auto;
 	display: flex;
 	flex-direction: row;
-	background-color: var(--header_text_color);
+	background-color: var(--header_color);
 	z-index: 999;
     top: 0;
     left: 0;
@@ -404,6 +410,7 @@ header .brand {
 	height: 80px;
 	object-fit: scale-down;
 	padding: 0 10px;
+	box-shadow: none;
 }
 
 .colored-bg .navbar-content {

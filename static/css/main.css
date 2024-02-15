@@ -1548,7 +1548,13 @@ html {
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: var(--secondary_color);
+    transform: scale(1.0);
+}
+
+.footer-socials li a:hover {
+    color: var(--secondary_color);
+    transition: all 1s ease;
+    transform: scale(1.2);
 }
 
 .footer-flex {
