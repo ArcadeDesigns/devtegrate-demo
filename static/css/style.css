@@ -47,7 +47,6 @@ html {
 	display: block;
 }
 
-
 .colored-bg-hidden.shadow {
 	display: block;
 	box-shadow: none;
@@ -2193,6 +2192,27 @@ header .brand {
 		height: auto;
 		display: flex;
 		z-index: 999;
+	}
+
+	@keyframes ResponsiveAnimation {
+		0%{
+			top: -100%;
+		}
+		100%{
+			top: 0%;
+		}
+	}
+
+	.sm-navbar.shadow {
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		width: 100%;
+		height: auto;
+		display: flex;
+		z-index: 999;
+		position: fixed;
+		animation: 1s ResponsiveAnimation;
 	}
 
 	.sm-navbar-content {

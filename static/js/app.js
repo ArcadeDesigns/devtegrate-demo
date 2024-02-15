@@ -232,3 +232,12 @@ function ImageShadowController() {
     ShadowBackGround.classList.toggle("shadow", isScrolled);
   });
 }
+
+function DropDownAnimationResponsiveness() {
+  const shadowResponsiveDropDownAnimation = document.querySelector(".sm-navbar");
+
+  window.addEventListener("scroll", () => {
+    const isScrolled = window.scrollY > 0;
+    shadowResponsiveDropDownAnimation.classList.toggle("shadow", isScrolled);
+  });
+}
